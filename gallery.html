@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style.css" rel="stylesheet" />
+  <title>Jajo PL — Galeria i Skład</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="logo.png" alt="Logo Drużyny Jajo PL" class="logo-img">
+      </a>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Strona główna</a></li>
+        <li><a href="history.html" class="active">Historia</a></li>
+        <li><a href="gallery.html" class="active">Galeria i Skład</a></li>
+        <li><a href="contact.html">Formularz do sparingu</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="gallery-section">
+      <h1>Skład naszej drużyny</h1>
+
+      <div class="filter-bar">
+        <label for="role-filter">Filtruj według roli:</label>
+        <select id="role-filter">
+          <option value="wszyscy">Wszyscy</option>
+          <option value="Snajper">Snajper</option>
+          <option value="Entry Fragger">Entry Fragger</option>
+          <option value="Support">Support</option>
+          <option value="Inne">Sztab i pozostali</option>
+        </select>
+      </div>
+
+      <div class="album">
+        <div class="title" data-role="Snajper">
+          <img src="jajoplplayers_4006400.png" alt="Mixontokox - Snajper" class="title-img">
+          <div class="title-content">
+            <h3>Mixontokox</h3>
+            <p class="role">Snajper</p>
+          </div>
+        </div>
+
+        <div class="title" data-role="Entry Fragger">
+          <img src="jajoplplayers_4005400.png" alt="JohnCash - Entry Fragger" class="title-img">
+          <div class="title-content">
+            <h3>JohnCash</h3>
+            <p class="role">Entry Fragger</p>
+          </div>
+        </div>
+
+        <div class="title" data-role="Inne">
+          <img src="jajoplplayers_4007400.png" alt="Arekaro06 - In-Game Leader" class="title-img">
+          <div class="title-content">
+            <h3>Arekaro06</h3>
+            <p class="role">In-Game Leader</p>
+          </div>
+        </div>
+
+        <div class="title" data-role="Inne">
+          <img src="jajoplplayers_4009400.png" alt="AlexisKing - Psycholog" class="title-img">
+          <div class="title-content">
+            <h3>AlexisKing</h3>
+            <p class="role">Psycholog</p>
+          </div>
+        </div>
+
+        <div class="title" data-role="Entry Fragger">
+          <img src="jajoplplayers_4001400.png" alt="Żul - Entry Fragger" class="title-img">
+          <div class="title-content">
+            <h3>Żul</h3>
+            <p class="role">Entry Fragger</p>
+          </div>
+        </div>
+
+        <div class="title" data-role="Inne">
+          <img src="jajoplplayers_4003400.png" alt="Kcpr - Filler" class="title-img">
+          <div class="title-content">
+            <h3>Kcpr</h3>
+            <p class="role">Filler</p>
+          </div>
+        </div>
+
+        <div class="title" data-role="Support">
+          <img src="jajoplplayers_4002400.png" alt="Removed - Support" class="title-img">
+          <div class="title-content">
+            <h3>Removed</h3>
+            <p class="role">Support</p>
+          </div>
+        </div>
+
+        <div class="title" data-role="Snajper">
+          <img src="jajoplplayers_4004400.png" alt="Don grande - Snajper" class="title-img">
+          <div class="title-content">
+            <h3>Don grande</h3>
+            <p class="role">Snajper</p>
+          </div>
+        </div>
+
+        <div class="title" data-role="Support">
+          <img src="jajoplplayers_4008400.png" alt="szewa667 - Support" class="title-img">
+          <div class="title-content">
+            <h3>szewa667</h3>
+            <p class="role">Support</p>
+          </div>
+        </div>
+
+        <div class="title" data-role="Inne">
+          <img src="jajoplplayers_40010400.png" alt="Maxiloskyyy - Trener" class="title-img">
+          <div class="title-content">
+            <h3>Maxiloskyyy</h3>
+            <p class="role">Trener</p>
+          </div>
+        </div>
+
+        <div class="title" data-role="Inne">
+          <img src="jajoplplayers_40023400.jpg" alt="Calkiem Plaski - Największy fan" class="title-img">
+          <div class="title-content">
+            <h3>Calkiem Plaski</h3>
+            <p class="role">Największy fan</p>
+          </div>
+        </div>
+
+        <div class="title" data-role="Inne">
+          <img src="jajoplplayers_40024400.jpg" alt="Bati - Właściciel zespołu" class="title-img">
+          <div class="title-content">
+            <h3>Bati</h3>
+            <p class="role">Właściciel zespołu</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="video-section">
+      <h2>Najlepsza akcja z meczu</h2>
+      <p>Zobacz najlepsza akcje naszego ostatniego meczu na mapie Inferno:</p>
+      <video controls width="100%" class="highlight-video">
+        <source src="highlight.mp4" type="video/mp4">
+        highlight
+      </video>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="https://www.facebook.com/profile.php?id=61591420666282" target="_blank">Facebook Drużyny</a>
+    </div>
+    <p>Wykonał: Bartłomiej Kukuła</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
